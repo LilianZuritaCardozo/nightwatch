@@ -5,9 +5,9 @@
 
   <testsuite name="CreatingBasicTestPractice"
     errors="0" failures="0" hostname="" id="" package="CreatingBasicTestPractice" skipped="0"
-    tests="1" time="11.43" timestamp="">
+    tests="1" time="16.80" timestamp="">
   
-    <testcase name="Demo test unosquare" classname="CreatingBasicTestPractice" time="11.43" assertions="13">
+    <testcase name="Demo test unosquare" classname="CreatingBasicTestPractice" time="16.80" assertions="13">
 
     
 
