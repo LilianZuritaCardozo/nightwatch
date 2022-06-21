@@ -1,39 +1,3 @@
-//const { test } = require("nightwatch");
-
-//module.exports = {
-    //'Demo test Nightwatch asserts' : function(browser) {
-      
-      
-      //const x = document.getElementById("main");
-     // const y = x.getElementsByTagName("p");
-     //document= ('https://nightwatchjs.org/')
-
-     //var items = getElementsByClassName('nav-item');
-     //infoBtn = driver.FindElements(By.CssSelector("li[class='nav-item']"));
-     //infoBtn[4].Click();//const DeveloperGuideButton = locateWith(By.className('nav-item')).toRightOf(By.css("li a[href='/']"))
-      
-      //browser
-     //.windowMaximize()
-     // .url('https://v09.nightwatchjs.org/')//The url was changed in order to find the 'Getting Started' button.
-      //.waitForElementVisible("li a[href = '/gettingstarted']")
-     // .click("li a[href = '/gettingstarted']")
-     //.url('https://nightwatchjs.org/')//Returning to the web page of the task in order to automate the rest of the steps.
-     //.Click(infoBtn[4])
-     //.click("div(ul li[href=https://nightwatchjs.org/guide/overview/what-is-nightwatch.html]")
-
-
-     // .click({"class=nav-item", index:2})
-      //.click("li a[href = 'https://nightwatchjs.org/guide/overview/what-is-nightwatch.html']")
-      //.click("button[class=DocSearch DocSearch-Button]")
-      //.assert.visible("li a[href = '/About']", 'class', 'nav-link')
-      //.assert.not.title('Unosquare')
-      //.assert.urlContains('https')     
-      //.assert.urlEquals('https://www.unosquare.com/') 
-     //.end()
-   // }
-//};
-
-
 
 const { test } = require("nightwatch");
 
@@ -55,7 +19,7 @@ module.exports = {
      .assert.attributeEquals('input' , 'autocomplete' , 'off') //(3)
      .setValue('input[id=docsearch-input]', 'Asserts')
      .click("div span[class='DocSearch-Hit-path']")
-     .verify.textContains('body', 'API Commands', '"API Commands" header is present') //(4)
+     .verify.textContains('body', 'API Commands', '"API Commands" header is present') //(4)*
      .useXpath()
      .click("//*[@id='navbartop']/ul/li[5]/a")
      .useCss()
