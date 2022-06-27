@@ -5,31 +5,9 @@
 
   <testsuite name="CreatingBasicTestPractice"
     errors="0" failures="0" hostname="" id="" package="CreatingBasicTestPractice" skipped="0"
-    tests="1" time="16.11" timestamp="">
+    tests="1" time="4.182" timestamp="">
   
-    <testcase name="Demo test unosquare" classname="CreatingBasicTestPractice" time="16.11" assertions="13">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
+    <testcase name="Demo test Nightwatch asserts" classname="CreatingBasicTestPractice" time="4.182" assertions="2">
 
     
 
