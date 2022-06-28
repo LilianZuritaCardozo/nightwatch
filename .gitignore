@@ -3,4 +3,6 @@ tests_output
 nightwatch.js
 Reports
 unosquare.js
+Tests\unosquare\unosquare.js
+Tests\unosquare\unosquareCommands.js
 
